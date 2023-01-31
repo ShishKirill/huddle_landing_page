@@ -77,6 +77,11 @@ header {
     margin-top: 1.5rem;
 }
 
+.box_grid1 img,
+.box_grid2 img {
+    width: 40%;
+}
+
 .box_grid1 img {
     padding: 2.5rem 2rem;
 }
