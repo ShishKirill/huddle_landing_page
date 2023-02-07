@@ -233,20 +233,15 @@ footer {
     flex-direction: row;
 }
 
-.foot1 {
-    max-width: 350px;
-    text-align: left;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-right: 14rem;
-}
-
 .line {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 1rem 0;
+}
+
+.line img {
+    padding: 0 1.2rem 2.5rem 0;
 }
 
 .line2 {
@@ -255,16 +250,21 @@ footer {
     align-items: center;
 }
 
-.line img {
-    padding: 0 1.2rem 2.5rem 0;
-}
-
 .line2 img {
     padding-right: 1rem;
 }
 
 .footer-logo {
     filter: hue-rotate(60deg) brightness(1000%);
+}
+
+.foot1 {
+    max-width: 350px;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 14rem;
 }
 
 .foot2 {
@@ -281,6 +281,11 @@ footer {
     border: 1px solid white;
     padding: 0.55rem;
     margin-left: 0.5rem;
+}
+
+.foot3 img:hover {
+    background-color: rgb(162, 162, 162);
+    cursor: pointer;
 }
 
 ul {
